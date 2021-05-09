@@ -13,13 +13,14 @@ Any technique or method to overcome this problem and getting a warning before th
 
 
 
+>
 
 > In this web Application you can check the diseases of maize, potato, tomato, cotton, grapes and also you can check what crops you need to grow in your land by giving a little information about your land here so you can get a good yield by taking the right crop in that land at the right time
 
 
 
 
-> *Video : 
+> *Video :* 
 
 
 
