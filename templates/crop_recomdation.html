@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crop Recomendation system</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="{{url_for('static',filename='material-design-iconic-font.min.css')}}">
+    <!-- Main css -->
+    <link rel="stylesheet" href="{{url_for('static',filename='style_crop_remendation.css')}}">
+
+
+</head>
+<body>
+
+</div>
+    <div class="main">
+        <div class="container">
+            <h2 style="font-family:Cursive ; color:#990000; margin-left : 20px" ><a href="/">Home</a></h2>
+            <div class="signup-content">
+                <div class="signup-img">
+
+                    <img src="static/images/cr_1.jpg" alt="">
+                </div>
+                <div class="signup-form">
+                    <form action="/crop_recommendation" method="POST" class="register-form" id="register-form">
+                        {% if data : %}
+                        <h2 >
+                        {{data[0]}}
+                        </h2>
+                        {% endif %}
+
+                        <h2 style="font-family:Cursive ; color:#990000">Crop Recomendation System </h2>
+                        <div class="form-row">
+
+
+                            <div class="form-group" >
+                                <label style="font-family:Cursive" for="Nitrogen">Nitrogen Level (N):</label>
+                                <input type="number" step="0.000001" min="0" max="300" name="Nitrogen" id="Nitrogen" required/>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="Phosphorus" style="font-family:Cursive">Phosphorus Level (P) :</label>
+                                <input type="number" step="0.000001" min="0" max="300" name="Phosphorus" id="Phosphorus" required/>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="Potassium" style="font-family:Cursive">Potassium Level (K) :</label>
+                                <input type="number" step="0.000001" min="0" max="150" name="Potassium" id="Potassium" required/>
+                            </div>
+
+                        </div>
+
+
+                  <div class="form-row">
+                            <div class="form-group">
+                                <label for="temperature" style="font-family:Cursive">Temperature:</label>
+                                <input type="number" step="0.000001" min="0" max="50" name="temperature" id="temperature" required/>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="humidity" style="font-family:Cursive">Humidity:</label>
+                                <input type="number" step="0.000001" min="0" max="150" name="humidity" id="humidity" required/>
+                            </div>
+                  </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="rainfall" style="font-family:Cursive">Rainfall:</label>
+                                <input type="number" step="0.000001" min="0" max="300" name="rainfall" id="rainfall" required/>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="ph" style="font-family:Cursive">ph level :</label>
+                                <input type="number" step="0.000001" min="0" max="10" name="ph" id="ph" required/>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="State" style="font-family:Cursive">State :</label>
+                                <div class="form-select">
+                                    <select name="State" id="State" style="font-family:Cursive">
+                                        <option value=0>Select State</option>
+                                        <option value=1>Andhra Pradesh</option>
+                                        <option value=2>Assam</option>
+                                         <option value=3>Arunachal</option>
+                                        <option value=4>Pradesh</option>
+                                        <option value=5>Goa</option>
+                                        <option value=6>Gujarat</option>
+                                        <option value=7>Jammu and Kashmir</option>
+                                        <option value=8>Jharkhand</option>
+                                        <option value=9>West Bengal</option>
+                                        <option value=10>Karnataka</option>
+                                        <option value=11>Kerala</option>
+                                        <option value=12>Madhya Pradesh</option>
+                                        <option value=13>Maharashtra</option>
+                                        <option value=15>Manipur</option>
+                                        <option value=16>Meghalaya</option>
+                                        <option value=17>Mizoram</option>
+                                        <option value=18>Nagaland</option>
+                                        <option value=19>Orissa</option>
+                                        <option value=20>Punjab</option>
+                                        <option value=21>Rajasthan</option>
+                                        <option value=22>Sikkim</option>
+                                        <option value=23>Tamil Nadu</option>
+                                        <option value=24>Tripura</option>
+                                        <option value=25>Uttaranchal</option>
+                                        <option value=26>Uttar Pradesh</option>
+                                        <option value=27>Haryana</option>
+                                        <option value=28>Himachal Pradesh</option>
+                                        <option value=29>Chhattisgarh</option>
+
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+
+
+<!--                            <div class="form-group">-->
+<!--                                <label for="ca" style="font-family:Cursive">Coronary Artery (ca) :</label>-->
+<!--                                <div class="form-select">-->
+<!--                                    <select name="ca" id="ca" style="font-family:Cursive">-->
+<!--                                        <option value='0'>0</option>-->
+<!--                                        <option value='1'>1</option>-->
+<!--                                        <option value='2'>2</option>-->
+<!--                                        <option value='3'>3</option>-->
+<!--                                        <option value='4'>4</option>-->
+<!--                                    </select>-->
+<!--                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>-->
+<!--                                </div>-->
+<!--                            </div>-->
+                        </div>
+
+                        <div class="form-submit" >
+                            <input style="font-family:Cursive" type="reset" value="Reset All" class="submit" name="reset" id="reset" />
+                            <input style="font-family:Cursive" type="submit" value="Predict" class="submit" name="submit" id="submit" />
+                        </div>
+                              <br>
+                            <footer>
+                                <span style="font-family:Cursive">Created By | <span style="color : crimson">@er_vishuu_vi__jaya </span>|  2020 All rights reserved.</span>
+                            </footer>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="static/crop_recomendation.js"></script>
+
+
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
