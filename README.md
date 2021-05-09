@@ -50,3 +50,22 @@ A fixed size of (224 * 224) RGB image was given as input to this network which m
 [**Grape Dataset**](https://www.kaggle.com/piyushmishra1999/plantvillage-grape) 
 
 [**Potato Dataset**](https://www.kaggle.com/muhammadardiputra/potato-leaf-disease-dataset) 
+
+
+# Libraries Used:
+1.keras
+
+2.Flask
+
+3.Joblib
+
+4.Pandas
+
+5.Numpy
+
+6.Bootstrap
+
+7.HTML & CSS , Javascript
+
+This whole Project is Deployed using Flask
+
