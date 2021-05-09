@@ -57,15 +57,21 @@ A fixed size of (224 * 224) RGB image was given as input to this network which m
 
 2.Flask
 
-3.Joblib
+3.pickle
 
 4.Pandas
 
 5.Numpy
 
-6.Bootstrap
+6.Sci-kit Learn
 
-7.HTML & CSS , Javascript
+7.Bootstrap
+
+8.HTML & CSS , Javascript , Python
 
 This whole Project is Deployed using Flask
+
+
+# Project Created by:
+[**Vishvanath Metkari**](https://www.linkedin.com/in/er-vishvanath-metkari-586617197/) 
 
