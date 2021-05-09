@@ -15,3 +15,6 @@ In this web Application you can check the diseases of maize, potato, tomato, cot
 
 
 Deep neural networks has been highly successful in image classification problems. In this Project, we have used CNN that can recognize the plant diseases of Plant images. We have used publicly available datasets. Hence, the problem that we have addressed is a multi class classification problem. We compared different architectures including VGG16, VGG19, ResNet50, InceptionV3, as the backbones for our work. We found that VGG19,InceptionV3 achieves the best result on the test set.
+
+>VGG16 Architecture :
+
