@@ -32,6 +32,9 @@ A fixed size of (224 * 224) RGB image was given as input to this network which m
 
 * this was followed by Rectified linear unit(ReLu) to introduce non-linearity to make the model classify better and to improve computational time as the previous models used tanh or sigmoid functions this proved much better than those.
 
-* implemented three fully connected layers from which first two were of size 4096 and after that a layer with 1000 channels for 1000-way ILSVRC classification and the final layer is a softmax function.
+
+
+
+![vgg-ispravljeno--718x1024](https://user-images.githubusercontent.com/63738852/117563247-253f9500-b0c2-11eb-9f26-b86360ae5159.png)
 
 
