@@ -38,3 +38,15 @@ A fixed size of (224 * 224) RGB image was given as input to this network which m
 ![vgg-ispravljeno--718x1024](https://user-images.githubusercontent.com/63738852/117563247-253f9500-b0c2-11eb-9f26-b86360ae5159.png)
 
 
+
+# **Dataset Used**
+
+[**Tomato Dataset**](https://www.kaggle.com/kaustubhb999/tomatoleaf)
+
+[**Maize or Corn Dataset**](https://www.kaggle.com/smaranjitghose/corn-or-maize-leaf-disease-dataset) 
+
+[**Cotton Dataset**](https://www.kaggle.com/janmejaybhoi/cotton-disease-dataset) 
+
+[**Grape Dataset**](https://www.kaggle.com/piyushmishra1999/plantvillage-grape) 
+
+[**Potato Dataset**](https://www.kaggle.com/muhammadardiputra/potato-leaf-disease-dataset) 
