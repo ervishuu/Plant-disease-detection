@@ -257,50 +257,50 @@ def crop_recommendation():
         print(Nitrogen,Phosphorus,Potassium,temperature,humidity,rainfall,ph)
 
         # Load the Model back from file
-        with open("Crop_Recomandation.pkl", 'rb') as file:
+        with open("Crop_Recomandation_RF.pkl", 'rb') as file:
             Pickled_RF_Model = pickle.load(file)
         result = Pickled_RF_Model.predict([[Nitrogen,Phosphorus,Potassium,temperature,humidity,ph,rainfall]])
-        if result[0] == 'rice':
+        if result[0] == 20:
             return render_template('crop_recomdation.html', data=["rice",'green'])
-        elif result[0] == "maize":
+        elif result[0] == 11:
             return render_template('crop_recomdation.html', data=["maize",'green'])
-        elif result[0] == "chickpea":
+        elif result[0] == 3:
             return render_template('crop_recomdation.html', data=["chickpea",'green'])
-        elif result[0] == "kidneybeans":
+        elif result[0] == 9:
             return render_template('crop_recomdation.html', data=["kidneybeans",'green'])
-        elif result[0] == "pigeonpeas":
+        elif result[0] == 18:
             return render_template('crop_recomdation.html', data=["pigeonpeas",'green'])
-        elif result[0] == "mothbeans":
+        elif result[0] == 13:
             return render_template('crop_recomdation.html', data=["mothbeans",'green'])
-        elif result[0] == "mungbean":
+        elif result[0] == 14:
             return render_template('crop_recomdation.html', data=["mungbean",'green'])
-        elif result[0] == "blackgram":
+        elif result[0] == 2:
             return render_template('crop_recomdation.html', data=["blackgram",'green'])
-        elif result[0] == "lentil":
+        elif result[0] == 10:
             return render_template('crop_recomdation.html', data=["lentil",'green'])
-        elif result[0] == "pomegranate":
+        elif result[0] == 19:
             return render_template('crop_recomdation.html', data=["pomegranate",'green'])
-        elif result[0] == "banana":
+        elif result[0] == 1:
             return render_template('crop_recomdation.html', data=["banana",'green'])
-        elif result[0] == "mango":
+        elif result[0] == 12:
             return render_template('crop_recomdation.html', data=["mango",'green'])
-        elif result[0] == "grapes":
+        elif result[0] == 7:
             return render_template('crop_recomdation.html', data=["grapes",'green'])
-        elif result[0] == "watermelon":
+        elif result[0] == 21:
             return render_template('crop_recomdation.html', data=["watermelon",'green'])
-        elif result[0] == "muskmelon":
+        elif result[0] == 15:
             return render_template('crop_recomdation.html', data=["muskmelon",'green'])
-        elif result[0] == "apple":
+        elif result[0] == 0:
             return render_template('crop_recomdation.html', data=["apple",'green'])
-        elif result[0] == "orange":
+        elif result[0] == 16:
             return render_template('crop_recomdation.html', data=["orange",'green'])
-        elif result[0] == "papaya":
+        elif result[0] == 17:
             return render_template('crop_recomdation.html', data=["papaya",'green'])
-        elif result[0] == "coconut":
+        elif result[0] == 4:
             return render_template('crop_recomdation.html', data=["coconut",'green'])
-        elif result[0] == "cotton":
+        elif result[0] == 6:
             return render_template('crop_recomdation.html', data=["cotton",'green'])
-        elif result[0] == "jute":
+        elif result[0] == 8:
             return render_template('crop_recomdation.html', data=["jute",'green'])
 
         else:
