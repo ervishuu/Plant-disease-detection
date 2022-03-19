@@ -96,5 +96,5 @@ This whole Project is Deployed using Flask
 
 
 # Project Created by:
-[**Vishvanath Metkari**](https://www.linkedin.com/in/er-vishvanath-metkari-586617197/) 
+[**Vishvanath Metkari**](https://www.linkedin.com/in/vishvanath-metkari-586617197/) 
 
