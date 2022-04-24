@@ -1,10 +1,10 @@
-# Agriculture-Web-Application
+# Agriculture-Web-Application 🧑‍🌾
 
 >Note: *This Project is only for educational purposes*
 
 Getting affected by a disease is very common in plants due to various factors such as fertilizers, cultural practices followed, environmental conditions, etc. These diseases hurt agricultural yield and eventually the economy based on it. 
 
-Any technique or method to overcome this problem and getting a warning before the plants are infected would aid farmers to efficiently cultivate crops or plants, both qualitatively and quantitatively. Thus, disease detection in plants plays a very important role in agriculture.
+Any technique or method to overcome this problem and getting a warning before the plants are infected would aid farmers 🧑to efficiently cultivate crops or plants🌾, both qualitatively and quantitatively. Thus, disease detection in plants plays a very important role in agriculture.
 
 
 
@@ -15,7 +15,7 @@ Any technique or method to overcome this problem and getting a warning before th
 
 >
 
-> In this web Application you can check the diseases of maize, potato, tomato, cotton, grapes and also you can check what crops you need to grow in your land by giving a little information about your land here so you can get a good yield by taking the right crop in that land at the right time
+> In this web Application you can check the diseases of maize 🌾, potato, tomato, cotton, grapes and also you can check what crops you need to grow in your land by giving a little information about your land here so you can get a good yield by taking the right crop in that land at the right time
 
 
 
@@ -95,6 +95,10 @@ A fixed size of (224 * 224) RGB image was given as input to this network which m
 This whole Project is Deployed using Flask
 
 
-# Project Created by:
-[**Vishvanath Metkari**](https://www.linkedin.com/in/vishvanath-metkari-586617197/) 
+# Hi, I'm Vishvanath ! 👋
+
+
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishvanath-metkari-586617197/)
+
 
