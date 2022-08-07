@@ -1,4 +1,4 @@
-# Agriculture-Web-Application 🧑‍🌾
+# Plant disease detection-Web-Application 🧑‍🌾
 
 >Note: *This Project is only for educational purposes*
 
